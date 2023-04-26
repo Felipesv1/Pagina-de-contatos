@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    overflow: hidden;
+}
+
+.contacts{
+    height: 75vh;
+    overflow-y: scroll;
+
+}
+
+.contacts::-webkit-scrollbar{
+    width: 8px;
+}
+
+.contacts::-webkit-scrollbar-thumb{
+    background: #282843;
+    border-radius: 999px;
+}
+.input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {  -webkit-appearance: none;}
+
+.active{
+    opacity: 1;
+}
