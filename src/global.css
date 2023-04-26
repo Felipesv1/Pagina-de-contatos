@@ -11,12 +11,17 @@ html,body{
     overflow-y: scroll;
 
 }
+.contacts-edit{
+    height: 60vh;
+    overflow-y: scroll;
 
-.contacts::-webkit-scrollbar{
+}
+
+.contacts::-webkit-scrollbar,.contacts-edit::-webkit-scrollbar{
     width: 8px;
 }
 
-.contacts::-webkit-scrollbar-thumb{
+.contacts::-webkit-scrollbar-thumb,.contacts-edit::-webkit-scrollbar-thumb{
     background: #282843;
     border-radius: 999px;
 }

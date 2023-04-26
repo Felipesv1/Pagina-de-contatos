@@ -33,7 +33,7 @@ export default function ContactAdd() {
             placeholder="Digite o nome ..."
           />
         </div>
-        <section className="w-full  contacts flex flex-col ">
+        <section className="w-full  contacts-edit flex flex-col ">
           {contatosFiltered.map((item) => (
             <div
               key={item.key}
